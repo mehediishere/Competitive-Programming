@@ -1,0 +1,38 @@
+#include <vector>
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int t;
+
+    cin>>t;
+
+    while(t--)
+    {
+        int n, m, a, b, c=0;
+        long long sum = 0;
+        cin>>n>>m;
+        vector<int> vec;
+        if(n<2)
+            cout<<0<<endl;
+        else if (n == 2)
+            cout<<m<<endl;
+        else
+        {
+            a = n/2;
+            b = n-a;
+            vec.assign(n, 0);
+            vec[0] = a;
+            vec[1] = b;
+            for(int i=0; i<n; i++)
+            {
+                sum += abs(vec[i]-vec[i+1]);
+            }
+        }
+        cout<<sum<<endl;
+    }
+
+    return 0;
+}
