@@ -1,0 +1,65 @@
+Week-1 ::: Day-1
+Topic: Fundamentals.
+
+Prerequisite: 
+* Use C language for your program.
+* Use codeblocks for coding.
+* Use .cpp extension in every file.
+* Use scanf and printf for input and output.
+* Do not use an extra header file which is not necessary for your code.
+* Do not use bits/stdc++.h library.
+
+Note: Sorry, we don't provide any tutorial for today. Because we don't find any suitable tutorial for all of these topics together. So please do topic wise google search for learning in a better way with optimizing your time. At the end of the day please ensure yourself about you have some correct ideas about all of the following topics. Thank You.
+
+Topics for learning - 
+1. Learn about Bit and byte.
+2. What is variable in C.
+3. Data types in C with their format specifier, size, range, declaration, and input-output format. (Suggested data types - int, double, char, bool, long long).
+4. When to use which types of data. How to print a specific number of digits after the decimal point for a double data type.
+5. Differences between int, double, and char.
+6. Differences between int and long long. When to use which.
+7. Learn about C operators. (Tutorial link - https://www.tutorialspoint.com/cprogramming/c_operators.htm). 
+8. How to swap values between two variables in C. 
+9. Learn about keywords in C.
+10. Difference between increment and decrement operator. Example: ++x and x++.
+11. Learn about ASCII values in C. Must remember the ASCII values of (A-Z, a-z, 0-9).
+12. Learn about typecasting in C. How to convert integer values to doubles and vice versa.
+13. How to comment codes in C.
+14. How to declare global variables.
+15. How to declare const values in C/C++. Learn about the #define directive.
+16. Learn using these keywords. (sqrt, pow, powl, swap, max, min, abs, INT_MAX, INT_MIN, LLONG_MAX, LLONG_MIN).
+
+Assignment:
+1. Write a C program that takes three valid side lengths of a triangle as input. You must take inputs at integer data type. Print the area of that triangle with three digits after decimal point. Do typecasting if necessary.
+
+MINIMUM=MEDIUM=MAXIMUM=1.
+
+Explanation For Problem_1:
+Given three side of a triangle x,y and z. Print the area of that triangle with three digits after decimal point.
+If x=12,y=10 and z=8 then the corresponding output is: 39.686.
+
+Test Case For Problem_1:
+Input_1:
+35 25 15
+Output_1: 
+162.380 
+
+Input_2:
+7 5 4
+Output_2: 
+9.798
+
+Input_3:
+90 77 66
+Output_3: 
+2481.591
+
+Input_4:
+2 3 4
+Output_4: 
+2.905
+
+Input_5:
+100 99 101
+Output_5: 
+4329.261

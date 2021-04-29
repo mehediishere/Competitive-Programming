@@ -1,0 +1,333 @@
+Week-1 ::: Day-3
+Topic: For loop + While loop
+
+Tutorial link: 
+for loop -> https://www.youtube.com/watch?v=GyYHZzGuYUc
+while loop -> https://www.youtube.com/watch?v=dFmR1EEwMPM
+
+For loop tasks: (You must use for loop)
+1. Input an integer N. Print N, N-1, ......3, 2, 1.
+2. Input an integer N. Find the sum of odd numbers - 1+3+5+...+N.
+3. Input an integer N. Print the following series: 1-2+3-4+5.....N.
+4. Given base B and power P. find B^P.
+5. Given N. Find N!.
+6. Given N. print the "namta" of N.
+
+While loop tasks: (You must use while loop)
+*** Do all for loops problems using while loop.(7-12)
+13. Find the sum of digits of a number N.
+14. Input an integer N. Revrese the integer N.
+15. Merge 2 numbers in another integer.
+16. Given a numbe N, find smallest number which is  dividible by 3 and greater than N.
+17. Given N, find X and A where N = X*2^A.
+
+MINIMUM=13  - -  MEDIUM=15  - -  MAXIMUM=17
+
+Explanation For Problem_1:
+You will be given an input N, You have to print all integers between 1 to N in reversed order.
+If N=5 then the corresponding output is: 5 4 3 2 1
+
+Test Case For Problem 1:
+Input_1:
+5
+Output_1:
+5 4 3 2 1
+
+Input_2:
+3
+Output_2:
+3 2 1
+
+Input_3:
+4
+Output_3:
+4 3 2 1
+
+Input_4:
+10
+Output_4:
+10 9 8 7 6 5 4 3 2 1
+
+
+Explanation For Problem_2:
+You will be given an input N, You have to print the sum of all odd integers between 1 to N.
+If N=6 then the corresponding output is: 1+3+5=9
+
+Test Case For Problem 2:
+Input_1:
+5
+Output_1:
+9
+
+Input_2:
+3
+Output_2:
+4
+
+Input_3:
+6
+Output_3:
+9
+
+Input_4:
+9
+Output_4:
+24 -> 25 hoba maybe
+
+
+Explanation For Problem_3:
+You will be given an input N, You have to print the sum of the series.
+If N=6 then the corresponding output is: 1-2+3-4+5-6=-3
+
+Test Case For Problem 3:
+Input_1:
+4
+Output_1:
+-2
+
+Input_2:
+5
+Output_2:
+3
+
+Input_3:
+6
+Output_3:
+-3
+
+Input_4:
+10
+Output_4:
+-5
+
+
+Explanation For Problem_4:
+You will be given an input N, You have multiply B, P times.
+If B=2 and P=3 then the corresponding output is: 2*2*2=8
+
+Test Case For Problem 4:
+Input_1:
+2 3
+Output_1:
+8
+
+Input_2:
+3 4
+Output_2:
+81
+
+Input_3:
+5 3
+Output_3:
+125
+
+Input_4:
+6 2
+Output_4:
+36
+
+
+Explanation For Problem_5:
+You will be given an input N, You have to print the result of N!. that is  1*2*3*...*N.
+If N=3 then the corresponding output is: 1*2*3=6
+
+Test Case For Problem 5:
+Input_1:
+5
+Output_1:
+120
+
+Input_2:
+3
+Output_2:
+6
+
+Input_3:
+6
+Output_3:
+720
+
+Input_4:
+8
+Output_4:
+40320
+
+
+Explanation For Problem_6:
+See input output
+
+Test Case For Problem 6:
+Input_1:
+5
+Output_1:
+5 X 1 = 5
+5 X 2 = 10
+5 X 3 = 15
+5 X 4 = 20
+5 X 5 = 25
+5 X 6 = 30
+5 X 7 = 35
+5 X 8 = 40
+5 X 9 = 55
+5 X 10 = 50
+
+
+Input_2:
+9
+Output_2:
+9 X 1 = 9
+9 X 2 = 18
+9 X 3 = 27
+9 X 4 = 36
+9 X 5 = 45
+9 X 6 = 54
+9 X 7 = 63
+9 X 8 = 72
+9 X 9 = 81
+9 X 10 = 90
+
+
+Explanation For Problem_13:
+You will be given an input N, You have to print the sum of all digits in N.
+If N=18732 then the corresponding output is: 21 because the number contains 1+8+7+3+2=21. 
+
+Test Case For Problem 13:
+Input_1:
+5234
+Output_1:
+14
+
+Input_2:
+33453455
+Output_2:
+32
+
+Input_3:
+1234
+Output_3:
+10
+
+Input_4:
+55555
+Output_4:
+25
+
+
+Explanation For Problem_14:
+You will be given an input N, You have to print the number in reversed order.
+If N=18732 then the corresponding output is: 23781, the reverse of that number. 
+
+Test Case For Problem 14:
+Input_1:
+5234
+Output_1:
+4325
+
+Input_2:
+33453455
+Output_2:
+55435433
+
+Input_3:
+12345
+Output_3:
+54321
+
+Input_4:
+98765
+Outout_4:
+56789
+
+
+Explanation For Problem_15:
+You will be given two numbwes, You have to print the marged number.
+If N=18732 and M=565 then the corresponding output is: 18732565, put the second number followed hy the first number and the output will be one number.
+
+Test Case For Problem 15:
+Input_1:
+32 454
+Output_1:
+32454
+
+Input_2:
+545 44
+Output_2:
+54544
+
+Input_3:
+12 34
+Output_3:
+1234
+
+Input_4:
+55 666
+Output_4:
+55666
+
+
+Explanation For Problem_16:
+You will be given an input N, You have to print the next first number which is divisible by 3..
+If N=8 then the corresponding output is: 9 because 9 is the first number after 8 which is dividible by 3.
+
+Test Case For Problem 16:
+Input_1:
+9
+Output_1:
+12
+
+Input_2:
+19
+Output_2:
+21
+
+Input_3:
+22
+Output_3:
+24
+
+Input_4:
+8
+Output_4:
+9
+
+
+Explanation For Problem_17:
+You will be given an input N, You have to print the two numbers like
+N=40 then 40=5*2^3. Here answer is 5 and 3.
+how to find!!
+Let,
+N=40, A=0,
+divide N by 2 and increase A by 1
+N=20, A=1,
+divide N by 2 an increase A by 1
+N=10, A=2,
+divide N by 2 an increase A by 1
+N=5, A=3
+the last odd N is X,
+So X=5, A=3.
+
+Test Case For Problem 17:
+Input_1:
+18
+Output_1:
+9 1
+
+Input_2:
+16
+Output_2:
+1 4
+
+Input_3:
+24
+Output_3:
+3 3
+
+Input_3:
+40
+Output_3:
+5 3
+
+Input_4:
+48
+Output_4:
+3 4
